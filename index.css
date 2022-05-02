@@ -1,0 +1,22 @@
+#result {
+  display: flex;
+}
+#navbar {
+  flex: 2;
+}
+#navbar > * {
+  margin-bottom: 20px;
+}
+#main {
+  flex: 8;
+}
+#results > div {
+  display: grid;
+  grid-template-columns: 15% 15% 75%;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+#results > div > img {
+  width: 80%;
+}
